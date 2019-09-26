@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="gr__getbootstrap_com" lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Budgety Table</title>
+  <link rel="stylesheet" href="css/Responsive.css">
+  <link rel="stylesheet" href="css/button.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="css/fontAwsome/css/all.css" rel="stylesheet">
+
+  <link type="text/css" rel="stylesheet" href="css/tableStyle.css">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <body>
+
+            <div class="top">
+                <div class="budget">
+                    <div class="budget__title">
+                        Available Budget in <span class="budget__title--month">%Month%</span>
+                    </div>
+
+                    <div class="budget__value">+ 2,345.64</div>
+                    </div>
+                    <div class="budget-btn">
+
+
+                    <div class="budget__income clearfix">
+                        <div class="budget__income--text">Total Income</div>
+
+                            <div class="budget__income--value">+ 4,300.00</div>
+                            <div class="budget__income--percentage">55%</div>
+
+                    </div>
+
+                    <div class="budget__expenses clearfix">
+                        <div class="budget__expenses--text">Total Expenses</div>
+                            <div class="budget__expenses--value">- 1,954.36</div>
+                            <div class="budget__expenses--percentage">45%</div>
+                    </div>
+                    <a href="index.html" class="hre"><i class="fas fa-arrow-left"></i>
+                    </a>
+
+            </div>
+            </div>
+    <div class="container">
+
+
+    <h2 class="center">Budget App</h2>
+      <div class="table-responsive">
+        <table class="table table-striped table-sm" id="dataRow">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Description</th>
+              <th>value</th>
+              <th>type</th>
+              <th>time</th>
+              <th>date</th>
+              <th>Edit</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody id="data-row" class="data-row">
+
+
+          </tbody>
+        </table>
+
+      </div>
+
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+
+</html>
